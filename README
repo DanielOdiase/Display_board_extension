@@ -1,0 +1,4 @@
+display board web app. Project utitlizes Http get request to get information from coingecko crypto api 
+weather api as well as unsplash api for the background . 
+
+A basic javascript time is used in this 

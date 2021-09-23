@@ -1,0 +1,71 @@
+
+* {
+    box-sizing: border-box;
+} 
+body{
+    margin:0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+main {
+    padding: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+div.top-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cryptInp-container{
+    align-items: center;
+    display: flex;
+}
+#crypto-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+div#tBid{
+    align-self: center;
+    line-height: 0;
+}
+#bibleV{
+    font-weight: bolder;
+    font-size: 17px;
+    font-style: italic;
+    
+}
+.time{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+#cryptInp{
+    display: flex;
+    margin-left:10px;
+}
+.currency1{
+    display: block;
+    margin:0;
+}
+div#crypto-container > p {
+    margin: 0;
+}
+div#weather-cont{
+    line-height: 0;
+}
+div#weather-cont > h4{
+    font-weight:bold;
+    font-size: 17px;
+}
